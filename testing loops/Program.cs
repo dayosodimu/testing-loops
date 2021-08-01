@@ -8,9 +8,9 @@ namespace testing_loops
         {
             Console.WriteLine("Hello World!");
 
-            for (int i = 0; i < 10; i = i + 2)
+            for (int i = 100; i > 10; i = i - 2)
             {
-                Console.Write(i);
+                Console.WriteLine(i);
             }
         }
     }
